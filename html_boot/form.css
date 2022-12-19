@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	/* height: 244px; */
+	width: 410px;
+	border: 2px solid black;
+	background: beige;
+	padding-top: 20px;
+	position: relative;
+	top: 50px;
+	left: 100px;
+	padding: 23px;
+	margin: 20px auto;
+}
+
+body {
+	background-color: #aeaeae;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 60px;
+	background-color: gainsboro;
+	color: black;
+	text-align: center;
+}
+
+table {
+	margin: 20px auto;
+	width: 50px;
+	background: burlywood;
+	border-collapse: collapse;
+}
+
+form label {
+	font-size: 18px;
+}
+
+form label sup {
+	color: red;
+}
+
+form input {
+	height: 30px;
+	width: 100%;
+	font-size: 16px;
+}
+
+form input[type='submit'] {
+	width: 100px;
+	text-transform: uppercase;
+	margin: 1px auto;
+	border-radius: 5px;
+}
+
+form input[value='Register'], input[value='Login'] {
+	font-size: 15px;
+	font-weight: 900;
+	color: darkolivegreen;
+}
+
+form input[value='Register']:hover, input[value='Login']:hover {
+	background: activecaption;
+}
+
+.container span a {
+	padding: 20px 40px;
+	color: blue;
+	font-size: 13px;
+}
+
+nav {
+	width: 90%;
+	margin: 10px auto;
+}
+
+nav ol li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ol li a {
+	border: 2px solid;
+	padding: 10px;
+	margin: 20px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	background: #f4f5ed;
+	color: black;
+}
+
+nav ol li a:hover {
+	background: black;
+	color: #f4f5ed;
+}
+
+table tr {
+	height: 40px;
+}
+
+table tr:nth-child(even) {
+	background: #c2bfba;
+}
+
+table tr th, td {
+	font-size: 20px;
+}
